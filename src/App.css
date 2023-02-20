@@ -1,0 +1,45 @@
+.convert-btn{
+        background-color: #2196f3; 
+        border: 1px solid #2196f3; 
+        color: white; 
+        padding: 10px 30px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        cursor: pointer; 
+        border-radius: 30px;
+        margin: 4px 2px; 
+        margin-left: 5%;
+}
+
+.download-audio-btn{
+  background-color: #ffff; 
+        border: 1px solid #2196f3; 
+        color: #2196f3; 
+        padding: 10px 30px; 
+        text-align: center; 
+        text-decoration: none; 
+        display: inline-block; 
+        font-size: 16px; 
+        cursor: pointer; 
+        border-radius: 30px;
+        margin: 4px 2px; 
+        margin-left: 1%;
+}
+
+
+  @media only screen and (max-width: 600px) {
+    .convert-btn{
+        font-size: 12px;
+        padding: 7px 10px; /* Padding */
+        margin: 4px 2px; /* Margin */
+    }
+    .download-audio-btn{
+      font-size: 12px;
+        padding: 7px 10px; /* Padding */
+        margin: 4px 2px; /* Margin */
+    }
+}
+  
+  
