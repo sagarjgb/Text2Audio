@@ -9,14 +9,14 @@ function Textarea(props) {
   const { speak } = useSpeechSynthesis();
 
   const handleEnd = (event) => {
-    const blob = new Blob([event.target.blob], { type: 'audio/mpeg' });
+    console.log('handleEnd called');
+    const blob = new Blob([event.target.value], { type: 'audio/mpeg' });
     const url = URL.createObjectURL(blob);
     setAudioURL(url);
-    console.log('handleEnd called');
   };
 
   const generateAudio = () => {
-    speak({ text, onEnd: () => handleEnd() });
+    speak({ text, onEnd: (event) => handleEnd(event) });
     console.log("generateAudio called");
   };
 

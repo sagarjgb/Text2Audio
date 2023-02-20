@@ -11,7 +11,7 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-right">
-        <a href=""><button className="contribute-btn">Donate</button></a>
+        <a href="/"><button className="contribute-btn">Donate</button></a>
       </div>
     </nav>
   );

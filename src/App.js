@@ -1,8 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar'
 import Textarea from './Components/Textarea'
-import Donate from './Components/Donate'
-import { useSpeechSynthesis } from 'react-speech-kit';
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -10,7 +9,7 @@ function App() {
     <div className='App'>
     <Navbar />
     <Textarea />
-    <Donate />
+    <Footer />
     </div>    
   );
 }
