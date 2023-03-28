@@ -1,9 +1,9 @@
-import React from 'react';
-import './Footer.css';
-import logo from '../images/t2a_croped.png';
+import React from "react";
+import "./Footer.css";
+import logo from "../images/t2a_croped.png";
 
 const Footer = () => {
-    const year = new Date().getFullYear();
+  const year = new Date().getFullYear();
   return (
     <footer className="footer">
       <div className="footer-container">

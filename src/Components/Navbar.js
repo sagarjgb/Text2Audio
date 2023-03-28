@@ -11,7 +11,7 @@ function Navbar() {
         </ul>
       </div>
       <div className="navbar-right">
-        <a href="/"><button className="contribute-btn">Donate</button></a>
+        <a href="https://github.com/sagarjgb/Text2Audio.git"><button className="contribute-btn">Contribute</button></a>
       </div>
     </nav>
   );
